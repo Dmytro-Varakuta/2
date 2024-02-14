@@ -627,7 +627,7 @@
   }
     .header_text{
       position: relative;
-    top: -50px;
+    top: -33px;
 }
 .header__h1 {
   font-size: 17px;
@@ -637,7 +637,7 @@
 }
 .menu.active{
   z-index: 2;
-  left: 12px;
+  left: 31px;
   width: 350px;
 }
 .project__h3{
