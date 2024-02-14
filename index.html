@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var-Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/anim.css">
+    <link rel="stylesheet" href="css/adaptiv/adaptiv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <!------ Header ---------->
+    
+     <div class="header">
+            <div class="header__content">
+
+  <div class="navbar">
+    <div class="burger-menu" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="menu">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Услуги</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+  
+                  <div class="header_oll">
+        <div class="header_text"> 
+          <h1 class="header__p">Вас приветсвует  Vartex-IT solutions</h1>
+          <h1 class="header__h1"> Мы специализируемся на создании интернет-сайтов любой сложности для различных задач. Доверьте нам ваш проект и убедитесь сами!</h1>
+          <!-- <a href="#projectWork"><button class="header__button">Мои проекты</button></a> -->
+          </div>
+</div>
+<img class="clock animated3" src="img/var-web3.png">
+
+               
+            </div>
+            
+    </div> 
+                           
+                             <!-------Header finish ------->
+                            <!-------My-project start ------->
+
+  <div class="my-project">
+        <div class="video-container">
+            <div class="container">
+                <div id="portfolio" class="project__block">
+                    <div class="project__text">
+                        <h3 id="projectWork" class="project__h3">Наши проекты </h3>
+                        <p class="project__p"></p>
+                    </div>
+                    <div class="project__work">
+                        <img class="img__project animated3" src="img/apple.gif " alt="#" onclick="openFullScreen('img/apple.gif')">
+                        <img class="img__project animated2" src="img/tatoo.gif" alt="#" onclick="openFullScreen('img/tatoo.gif')">
+                        <img class="img__project animated3" src="img/video-to-gif-converter.gif" alt="#" onclick="openFullScreen('img/video-to-gif-converter.gif')">
+                        <img class="img__project animated2" src="img/video-to-gif-converter.gif" alt="#" onclick="openFullScreen('img/video-to-gif-converter.gif')">
+                        <!-- <img class="img__project" src="img/project.png" alt="#" onclick="openFullScreen('img/project.png')"> -->
+                    </div>
+                    <!-- <button class="project__button">Все проекты</button> -->
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="full-screen-container" id="fullScreenContainer">
+        <img class="img-screen" id="fullScreenImage">
+        <button class="foto-button" onclick="closeFullScreen()">Закрыть</button>
+      </div>
+
+
+                            <!-------My-project finish ------->
+
+                            <!-------Kontent start ------->
+    <div class="content">
+        <!-- <div class="container"> -->
+            <div class="content__text animated">
+                <h1 class="content__th1 ">УСЛУГИ ПО РАЗРАБОТКЕ САЙТОВ</h1>               
+           
+                </div>
+                <div class="oll-text animated3">
+                  <div class="carousel-container">
+                    <div class="carousel">
+                      <div class="card-container">
+                        <div class="card">
+                          <div class="card__content">
+                            <h3 class="card__title">ДИЗАЙН</h3>
+                            <p class="card__description">
+                              Мы специализируемся на создании уникальных дизайнов, которые соответствуют вашему стилю и подчеркивают индивидуальность вашего бренда. Доверьте нам ваш онлайн-мир, и мы сделаем его неповторимым!
+                            </p>
+                          </div>
+                          <div class="card__image">
+                            <img src="img/adaptive-web-11.png" alt="img">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-container">
+                        <div class="card">
+                          <div class="card__content">
+                            <h3 class="card__title">ВЕБ РАЗРАБОТКА</h3>
+                            <p class="card__description">
+                              Я рад представить вам наши профессиональные услуги по разработке веб-сайтов, созданных специально под ваши потребности. Наша цель - не просто создавать визуально привлекательные сайты, но и обеспечивать их высокую производительность и надежную работу. Мы готовы воплотить в жизнь ваши идеи и помочь вашему бизнесу эффективно проявить себя в онлайн-пространстве.                            </p>
+                          </div>
+                          <div class="card__image">
+                            <img src="img/adaptive-web-13.png" alt="img">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-container">
+                        <div class="card card3">
+                          <div class="card__content">
+                            <h3 class="card__title">ПОДДЕРЖКА</h3>
+                            <p class="card__description">
+                              Мы обеспечиваем бесперебойную работу вашего веб-сайта с помощью наших комплексных услуг поддержки. Регулярное обслуживание, своевременные обновления и надежное устранение сбоев - наша забота. Наша цель - гарантировать безупречную работу вашего сайта, чтобы вы могли сосредоточиться на своем бизнесе.
+                            </p>
+                          </div>
+                          <div class="card__image">
+                            <img src="img/adaptive-web-14.png" alt="img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="prev-button">&lt;</button>
+                    <button class="next-button">&gt;</button>
+                  </div>
+                <!-- <div class="content__oll">
+                    <div class="image__saite">
+                        <div class="image__fix animated">
+                            <img class="krug__1" src="img/adaptive-web-13.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="text__too">
+                        <h3 class="content__h3 animated">ВЕБ РАЗРАБОТКА</h3>
+                        <p class="contetnt__p1 animated">Привет, меня зовут Дима, и я предоставляю профессиональные услуги по разработке веб-сайтов, созданные специально под ваши потребности. Моя цель - создавать не только визуально привлекательные, но и удобные веб-сайты, которые оптимизированы для высокой производительности и гарантируют бесперебойную работу. Я готов воплотить в жизнь ваши идеи и обеспечить вашему бизнесу эффективное присутствие в онлайн-пространстве.</p>
+                    </div>
+                </div>
+                <div class="content__oll">
+                    <div class="image__saite">
+                        <div class="image__fix animated">
+                            <img class="krug__1" src="img/adaptive-web-14.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="text__too ">
+                        <h3 class="content__h3 animated ">ПОДДЕРЖКА</h3>
+                        <p class="contetnt__p1 animated ">Обеспечиваю бесперебойную и беспроблемную работу вашего веб-сайта благодаря моим комплексным услугам поддержки. Я предоставляю регулярное обслуживание, своевременные обновления и надежное устранение сбоев. Моя цель - гарантировать безупречную работу вашего веб-сайта, чтобы вы могли сосредоточиться на основной деятельности вашего бизнеса.</p>
+                    </div>
+                </div> -->
+            </div>
+                
+
+
+        </div>
+    </div>
+  <hr>
+                            <!-------Kontent finish ------->
+
+
+
+                            <!-------Standart Start ------->
+<div class="procces">
+    <div class="container">
+        <div id="blog" class="procces_text">
+        <h1 class="web-brocec">ПРОЦЕСС РАЗРАБОТКИ ВЕБ-САЙТА</h1>
+    </div>
+    <div class="obchee">
+    <div class="cont-oll animated3">
+        <div class="process-one">
+            <div class="img-text">
+                <h3 class="h3-one  "><img class="img_rz" src="img/1-2.png" alt="1">ЗНАКОМСТВО</h3>
+            </div>
+            <h4 class="mini-block ">Давайте назначим встречу через Zoom/Google Meet, чтобы обсудить ваш бизнес, цели и предпочтения. Мне важно лучше понять ваши потребности и рассмотреть, как мы можем предоставить вам эффективную поддержку.</h4>
+        </div>
+    </div>
+    <div class="cont-oll-2 animated">
+        <div class="process-one">
+            <div class="img-text">
+                <h3 class="h3-one"><img class="img_rz" src="img/2.png" alt="1">АНАЛИЗ</h3>
+            </div>
+            <h4 class="mini-block">Мы готовы провести анализ вашего продукта или услуги, а также изучить конкурентов, чтобы выявить ключевые цели вашего веб-сайта. Этот процесс поможет нам определить основные задачи и цели, которые необходимо достичь для эффективного развития вашего онлайн-присутствия.</h4>
+        </div>
+    </div>
+    <div class="cont-oll animated2">
+        <div class="process-one">
+            <div class="img-text">
+                <h3 class="h3-one"><img class="img_rz" src="img/3-12.webp" alt="1">МОКАП</h3>
+            </div>
+            <h4 class="mini-block">Мы предлагаем сотрудничество с вами над разработкой макета веб-сайта, чтобы гарантировать, что он отвечает всем вашим требованиям и предпочтениям. Вместе мы создаем и утверждаем дизайн, чтобы удостовериться, что он полностью соответствует вашим ожиданиям.
+
+            </h4>
+        </div>
+    </div>
+    <div class="cont-oll-4 animated3">
+        <div class="process-one">
+            <div class="img-text">
+                <h3 class="h3-one"><img class="img_rz" src="img/4-1.png" alt="1">ДИЗАЙН</h3>
+            </div>
+            <h4 class="mini-block">Мы специализируемся на создании веб-дизайнов с использованием передовых инструментов, таких как Figma, для разработки мобильных и настольных версий. Наша команда стремится обеспечить вашему веб-сайту современный и функциональный дизайн. </h4>
+        </div>
+    </div>
+    <div class="cont-oll animated">
+        <div class="process-one">
+            <div class="img-text">
+                <h3 class="h3-one"><img class="img_rz" src="img/5-5.jpg" alt="1">РАЗРАБОТКА</h3>
+            </div>
+            <h4 class="mini-block">Мы разрабатываем все необходимые функциональные возможности веб-сайта и интегрируем их с базой данных. Затем мы занимаемся кодированием фронт-энда, чтобы оживить дизайн и обеспечить бесперебойный пользовательский опыт.</h4>
+        </div>
+    </div>
+    <div class="cont-oll-6 animated2">
+        <div class="process-one">
+            <div class="img-text">
+                <h3 class="h3-one"><img class="img_rz" src="img/6.png" alt="1">ТЕСТИРОВАНИЕ</h3>
+            </div>
+            <h4 class="mini-block">Мы тщательно проверяем функциональность каждого веб-сайта и проводим проверку на наличие ошибок перед передачей проекта вам. Наша цель - обеспечить бесперебойную работу вашего веб-сайта и оперативно решить любые проблемы или ошибки, которые могут возникнуть.</h4>
+        </div>
+    </div>
+</div>
+<hr>
+</div>
+<h1 class="tipu-h1 animated">ТИПЫ ВЕБ САЙТОВ</h1>
+<div class="tupi-web">
+    <div class="tipu-cont animated">
+        <a href="index.vizit.html"><h3 class="tipu-h3"><img class="img-tipu" src="img/pc1.png" alt="">САЙТ-ВИЗИТКА</h3></a>
+    </div>
+    <div class="tipu-cont animated">
+        <a href="index-landing.html"><h3 class="tipu-h3"><img class="img-tipu" src="img/pc2.png" alt="">ЛЕНДИНГ</h3></a>
+    </div>
+    <div class="tipu-cont animated">
+      <a href="index-catalog.html"><h3 class="tipu-h3"><img class="img-tipu" src="img/pc3.png" alt="">САЙТ-КАТАЛОГ</h3></a>
+    </div>
+    <div class="tipu-cont animated">
+      <a href="index-store.html"><h3 class="tipu-h3"><img class="img-tipu" src="img/pc4.png" alt="">ИНТЕРНЕТ-МАГАЗИН</h3></a>
+    </div>
+</div>
+</div>
+<hr>
+
+                            <!-------Standart finish ------->
+
+
+                            <!-------My-Works start ------->
+<div class="oll-accardion ">
+    <h1 class="title-text animated">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ ПО ВЕБ-РАЗРАБОТКИ</h1>
+  <div class="accordion">
+    <div class="accordion-item animated">
+      <div class="accordion-header " onclick="toggleAccordion(this)">
+        <h2>СКОЛЬКО СТОИТ СОЗДАНИЕ САЙТА?</h2>
+        <span class="accordion-icon">+</span>
+      </div>
+      <div class="accordion-content ">
+        <p class="p-accardion" > 1.Шаблонный сайт от 150$ <br>
+            2.Лендинг-страница от 250$ <br>
+            3.Бизнес-сайт от 300$<br>
+            4.Интернет-магазин от 700$<br>
+            5.Портфолио веб-сайт от 300$ <br>
+            6.Сайт новостей от 500$ <br>
+            7.Исправление чужого кода или ошибок — 15$ в час.<br><br><br>
+             
+            
+            Каждый проект рассчитывается индивидуально в зависимости от функций и дизайна.</p>
+      </div>
+    </div>
+    <div class="accordion-item animated">
+      <div class="accordion-header " onclick="toggleAccordion(this)">
+        <h2>ЧТО ПОТРЕБУЕТСЯ ОТ МЕНЯ В ТЕЧЕНИЕ ПРОЦЕССА РАЗРАБОТКИ?</h2>
+        <span class="accordion-icon">+</span>
+      </div>
+      <div class="accordion-content ">
+        <p class="p-accardion" >Если вы хотите создать веб-сайт, важно, чтобы вы или ваш маркетолог участвовали в процессе координации всех этапов, предоставляли информацию и давали быстрый ответ.</p>
+      </div>
+    </div>
+    <div class="accordion-item animated">
+      <div class="accordion-header " onclick="toggleAccordion(this)">
+        <h2>СКОЛЬКО СТОИТ ПОДДЕРЖКА ПО ЗАВЕРШЕНИИ РАЗРАБОТКИ?</h2>
+        <span class="accordion-icon">+</span>
+      </div>
+      <div class="accordion-content">
+        <p class="p-accardion" >Поддержка веб-разработки стоит  15$ в час.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                            
+                            <!-------My-Works finish ------->
+                            
+
+                            <!-------My-Video start ------->
+
+
+<div class="company">
+    <div class="oll-company">
+        <div class="centr-company">
+            <div class="contact-form animated">
+                <form action="https://formspree.io/f/xoqgjpww" method="post" id="contactForm1">
+                    <h2 class="poscht">Свяжитесь с нами</h2>
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+
+                    <label for="number">Number:</label>
+                    <input type="tel" id="number" name="number" placeholder="Введите ваш Номер" required>
+
+                    <button class="button-h" type="submit">Отправить</button>
+                </form>
+            </div>
+            <img class="img-company animated" src="img/var-web3.png">
+            <div class="text-fon">
+                <h3 class="telefoun animated">ТЕЛЕФОНЫ</h3>
+                <p class="p-tel animated">POLAND<br>+488888888888</p>
+                <p class="p-tel animated">POLAND<br>+488888888888</p>
+            </div>
+        </div>
+        <h3 class="pod-logo">© 2024 Var-Web - All right reserved </h3>
+    </div>
+    <div class="logo animated">
+        <a class="logo-href" href="https://www.instagram.com/Varakyta/" target="_blank">
+            <img class="icons-class" src="img/instagram (2).png" alt="Instagram">Instagram
+        </a>
+        <a class="logo-href"
+            href="https://www.facebook.com/people/Dmytro-Varakuta/pfbid0hiR4qcGfsCsnCiyCqmC1HfXqtDAjiAjGEpctG3g1UGDAhoDqZ1STw4tAFNCSBHnhl/"
+            target="_blank">
+            <img class="icons-class" src="img/facebook.png" alt="Facebook">Facebook
+        </a>
+        <a class="logo-href" href="https://github.com/6e3o6pa3ue" target="_blank">
+            <img class="icons-class" src="img/github.png" alt="GitHub">GitHub
+        </a>
+    </div>
+</div>
+
+              
+           
+        <!-- <div id="contactMe" class="container2">
+            <div class="front side">
+                <div class="content-name">
+                    <h1>Дмитрий Варакута</h1><br>
+                    <h3>Телефон:+4***********</h3>
+                </div>
+            </div>
+            <div class="back side">
+                <div class="content-name">
+                    <h1>Contact Me</h1>
+                    <form id="contactForm">
+                        <label>Your Name :</label>
+                        <input type="text" id="name" placeholder="Your Name">
+                        <label>My E-mail :</label>
+                        <input type="text" id="email" placeholder="Gmail.com" value="dimavarakuta1221@icloud.com">
+                        <label>Your message :</label>
+                        <textarea id="message" placeholder="The Subject"></textarea>
+                        <input type="button" value="Done" onclick="openMailClient()">
+                    </form>
+                </div>
+            </div>
+        </div> -->
+        <!-- <script>
+            function openMailClient() {
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var subject = document.getElementById('message').value;
+                var mailtoLink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent('Name: ' + name + '\n\n');
+                
+                window.location.href = mailtoLink;
+            }
+        </script>  -->
+        <!-- <div class="video__block"> -->
+<!--          
+        </div>
+</div>
+
+
+</div>
+    </div>
+</div> -->
+
+
+                            
+                            <!-------My-Video finish ------->
+
+<div class="follow-cursor"></div>
+<button id="scrollTopBtn" onclick="scrollToTop()" style="font-size: 24px;">↑</button>
+       
+<script src="Java/app.js"></script>
+  </body>

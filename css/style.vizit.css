@@ -1,0 +1,810 @@
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    left: -300px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes htmlSkill {
+  0% {width: 0;}
+  100% {width: 95%;}
+}
+
+@keyframes cssSkill {
+  0% {width: 0;}
+  100% {width: 90%;}
+}
+
+@keyframes jsSkill {
+  0% {width: 0;}
+  100% {width: 75%;}
+}
+
+@keyframes mvBottom {
+  0% {bottom: -150px;}
+  100% {bottom: 10px;}
+}
+
+@keyframes mvTop {
+  0% {top: -150px;}
+  100% {top: 40px;}
+}
+
+@keyframes dsTop {
+  0% {top: -150px;}
+  100% {top: 0;}
+}
+
+.following {
+  color: white;
+  background: crimson;
+}
+body{
+  color: #000;
+}
+
+html{
+    box-sizing: border-box;
+    color: #000;
+ }
+ *,
+ *::before,
+ *::after{
+    box-sizing: inherit;
+    max-width: 100%;
+ }
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+.vizit-header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background:black;
+}
+.vizit-text{
+    max-width: 700px;
+    color: white;
+}
+.img-vizit{
+    width: 600px;
+    z-index: 3;
+}
+.p-vizit{
+    font-size: 22px;
+    padding-bottom: 30px;
+    color: white;
+}
+.h1-vizit{
+    font-size: 65px;
+    padding-bottom: 30px;
+    color: white;
+}
+.p-vizit2{
+    width: 500px;
+    color: white;
+}
+.cena-vizit {
+    width: 85rem;
+   
+}
+.h1-cena {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: yellow;
+}
+.cena-p {
+    padding-bottom: 30px;
+    font-family: 'Noto Serif', serif;
+    color: white;
+}
+.oll-cena{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+
+    background: black;
+}
+hr {
+  border: none;
+  height: 2px; /* Высота линии */
+  background-color: yellow; /* Цвет линии */
+  width: 75%; /* Ширина линии */
+  margin: 0 auto; /* Размещение по центру */
+  position: relative;
+  margin-top: 30px;
+}
+                           /*==================  Standart Section ===================*/
+.procces {
+  background: black;
+}
+
+
+.oll-procces {
+
+}
+.procces_text {
+
+  margin-bottom: 20px;
+}
+.web-brocec {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  color: yellow;
+}
+.img_rz{
+  padding-bottom: 30px;
+  width: 140px;
+}
+.obchee{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px
+}
+.cont-oll {
+  width: 400px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+}
+.process-one {
+  display: flex;
+}
+.img-text {
+  display: flex;
+  align-items: center;
+}
+.h3-one {
+  padding-bottom: 30px;
+}
+.mini-block {
+  width: 192px;
+  margin-right: 30px;
+  color: white;
+}
+.cont-oll-2{
+  width: 400px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  background-color: rgb(56 54 54 / 50%);
+}
+.cont-oll-4{
+  width: 400px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  background-color: rgb(56 54 54 / 50%);
+}
+.cont-oll-6{
+  width: 400px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  background-color: rgb(56 54 54 / 50%);
+}
+
+                            /*================== END Standart Section ===================*/
+
+                                                        /*================== Wopros Section ===================*/
+.accordion {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+   
+  }
+  
+  .accordion-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Serif', serif;
+  
+  }
+  
+  .accordion-content {
+    display: none;
+    background-color: #f5f5f5;
+  
+  }
+  
+  .accordion-icon {
+    font-size: 20px;
+  }
+  
+  .oll-accardion{
+
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .p-accardion{
+    padding: 20px;
+    font-family: 'Noto Serif', serif;
+  }
+  .title-text{
+    color: yellow;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 30px;
+    
+    
+  }
+  
+  
+  
+  
+                                /*================== END Wopros Section ===================*/
+.logo{
+  display: flex;
+  flex-direction:row;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+.logo-href{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: font-size 0.3s ease;
+}
+.logo-href:hover{
+  font-size: 20px;
+}
+
+.icons-class{
+    max-width: 30px;
+    background: white;
+    border-radius: 50%;
+    
+  }
+  
+    .button-par{
+      position: absolute;
+      margin: auto;
+      padding: 8px;
+      top: 20px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: inherit;
+      height: 40px;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+      outline: none;
+      a {
+        padding: 5px 20px;
+        border-radius: 10px;
+        color: white;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        font-size: 10px;
+        transition: all 1s;
+        &:hover {
+          color: white;
+          background: crimson;
+        }
+      }
+    }
+    .ds-info {
+      position: absolute;
+      margin: auto;
+      top: 120px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: inherit;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      .pens, .projects, .posts {
+        position: relative;
+        left: -300px;
+        width: calc(250px / 3);
+        text-align: center;
+        color: white;
+        animation: fadeInMove 2s;
+        animation-fill-mode: forwards;
+        h6 {
+          text-transform: uppercase;
+          color: crimson;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .ds {
+        &:nth-of-type(2) {
+          animation-delay: .5s;
+        }
+        &:nth-of-type(1) {
+          animation-delay: 1s;
+        }
+      }
+    }
+    .ds-skill {
+      position: absolute;
+      margin: auto;
+      bottom: 10px;
+      right: 0;
+      left: 0;
+      width: 200px;
+      height: 100px;
+      animation: mvBottom 1.5s;
+      h6 {
+        margin-bottom: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: crimson;
+      }
+      .skill {
+        h6 {
+          font-weight: 400;
+          font-size: 8px;
+          letter-spacing: 0.05em;
+          margin: 4px 0;
+          color: white;
+        }
+        .fab {
+          color: crimson;
+          font-size: 14px;
+        }
+        .bar {
+          height: 5px;
+          background: crimson;
+          text-align: right;
+          p {
+            color: white;
+            font-size: 8px;
+            padding-top: 5px;
+            animation: fadeIn 5s;
+          }
+          &:hover {
+            background: white;
+          }
+        }
+        .bar-html {
+          width: 95%;
+          animation: htmlSkill 1s;
+          animation-delay: .4s;
+        }
+        .bar-css {
+          width: 90%;
+          animation: cssSkill 2s;
+          animation-delay: .4s;
+        }
+        .bar-js {
+          width: 75%;
+          animation: jsSkill 3s;
+          animation-delay: .4s;
+        }
+      }
+    }
+  
+  
+.img-company{
+  height: 300px;
+}
+.pod-logo{
+  color: azure;
+  text-align: center;
+  padding-top: 20px
+}
+.company{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  
+}
+.telefoun{
+  color: white;
+}
+.centr-company{
+  display: flex;
+  align-items: center;
+}
+.p-tel{
+  color: white;
+}
+.text-fon{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactForm{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+button:hover {
+      background-color: #3d3d3d;
+    }
+
+
+  label {
+      display: block;
+      margin: 10px 0 5px;
+      color: #666;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    form {
+      background-color: #1f1e1e;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 100%;
+      max-width: 400px;
+      box-sizing: border-box;
+    }
+    .button-h {
+      background-color:#fff020;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+      width: 240px;
+      padding-top: 12px;
+      margin-top: 20px;
+    }
+ 
+
+
+    
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.burger-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+
+}
+
+nav {
+  display: none;
+  flex-direction: column; /* Изменено на колонку */
+  position: absolute;
+  top: 60px; /* Расстояние от верхнего края бургер-меню до меню */
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.burger-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  background-color: #fff020;
+  height: 3px;
+  width: 25px;
+  margin: 5px 0;
+  display: block;
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 685px) {
+  .burger-icon {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    position: static; /* Изменено на статическое позиционирование */
+    background-color: transparent; /* Изменено на прозрачный фон */
+  }
+
+  li {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}
+
+                          /*================== Start TIME Section ===================*/
+.clock {
+  display: flex;
+  position: relative;
+  top: -400px;
+  left: 37px;
+}
+
+  .divider {
+    font-size: 66px;
+    line-height: 102px;
+    font-style: normal;
+  }
+
+  .flip {
+    position: relative;
+    width: 60px;
+    height: 100px;
+    margin: 2px;
+    font-size: 66px;
+    line-height: 100px;
+    text-align: center;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0,0,0,0.4));
+
+  }
+    .digital {
+      &::before,
+      &::after {
+        position: absolute;
+        content: attr(data-number);
+        left: 0;
+        right: 0;
+        color: white;
+        background: black;
+        overflow: hidden;
+        perspective: 160px;
+      }
+    
+      &::before {
+        top: 0;
+        bottom: 50%;
+        border-bottom: 1px solid #666;
+        border-radius: 10px 10px 0 0;
+      }
+
+      &::after {
+        top: 50%;
+        bottom: 0;
+        line-height: 0;
+        border-radius: 0 0 10px 10px;
+      }
+    }
+
+    
+    .back::before,
+    .front::after {
+      z-index: 1;
+    }
+
+    .back::after {
+      z-index: 2;
+    }
+
+    .front::before {
+      z-index: 3;
+    }
+
+    .back::after {
+      transform-origin: center top;
+      transform: rotateX(180deg);
+    }
+
+    &.running {
+      .front::before {
+        transform-origin: center bottom;
+        animation: frontFlipDown 0.6s ease-in-out;
+        box-shadow: 0 -2px 6px rgba(255, 255, 255, 0.3);
+        backface-visibility: hidden;
+      }
+      .back::after {
+        animation: backFlipDown 0.6s ease-in-out;
+      }
+    }
+  
+
+
+@keyframes frontFlipDown {
+  to {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes backFlipDown {
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+
+
+
+
+@media (max-width:1024px){
+  .obchee {
+    gap: 20px;
+  }
+  .procces {
+   
+}
+.cena-vizit {
+    width: 45rem;
+}
+}
+@media (max-width:820px){
+  .procces {
+   
+}
+}
+@media (max-width:430px){
+  .centr-company{
+    flex-direction: column;
+
+  }
+  .logo {
+   
+    display: flex;
+    flex-direction: column; 
+    
+  }
+  .procces {
+  
+}
+.p-vizit2 {
+width: 430px;
+}
+.p-vizit {
+  padding-top: 20px;
+}
+.vizit-text {
+  text-align: center;
+}
+.burger-icon{
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.burger-icon{
+  z-index: +200;
+}
+nav{
+  z-index: 2;
+  position: absolute;
+  top: 22px;
+  letter-spacing: -2px;
+}
+nav ul{
+  top: 22px;
+}
+.lim{
+  letter-spacing: -2px;
+}
+.cena-vizit{
+  text-align: center;
+}
+.oll-cena{
+  padding-top: 0px;
+}
+}
+@media (max-width:414px){
+  .p-vizit2{
+    width: 360px;
+  }
+  
+}
+
+
+/* @media (max-width:540px){
+  .video-text{
+    position: relative;
+    top: 100px;
+    background: black !important;
+  }
+  .info-me{
+    position: relative;
+    top: 150px;
+  }
+  .card-me{
+    position: relative;
+    top: 104px;
+}
+.logo-company{
+  position: relative;
+  top: 425px;
+}
+.video__h3{
+  position: relative;
+  top: 277px;
+}
+.section__video{
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  font-family: "Montserrat";
+}
+  } */
+  @media (max-width:414px){
+    .procces {
+      
+  }
+  }
+  .img-pad{
+  position: relative;
+  right: 185px;
+  width: 260px;
+  z-index: 4;
+ 
+  }
+  .img-phone{
+    width: 135px;
+    position: relative;
+    top: -27rem;
+    left: 26rem;
+    z-index: 4;
+  }
+  .poscht{
+    color: white;
+  }
